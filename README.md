@@ -2,8 +2,6 @@
 
 A from-scratch implementation of the Harris & Stephens (1988) corner detection algorithm using pure NumPy — no OpenCV, no SciPy.
 
-**Team:** Beibarys, Alim, Didar, Dias
-
 **Reference:** Harris, C. & Stephens, M. (1988). *A Combined Corner and Edge Detector.* Proceedings of the 4th Alvey Vision Conference.
 
 ---
