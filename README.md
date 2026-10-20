@@ -1,6 +1,6 @@
 # Harris Corner Detector
 
-A from-scratch implementation of the Harris & Stephens (1988) corner detection algorithm using pure NumPy — no OpenCV, no SciPy.
+The project implements the Harris & Stephens (1988) corner detection algorithm by using pure NumPy — no OpenCV, no SciPy.
 
 **Reference:** Harris, C. & Stephens, M. (1988). *A Combined Corner and Edge Detector.* Proceedings of the 4th Alvey Vision Conference.
 
@@ -8,7 +8,7 @@ A from-scratch implementation of the Harris & Stephens (1988) corner detection a
 
 ## Overview
 
-Corner detection is a fundamental task in computer vision, used in image matching, object tracking, and 3D reconstruction. This implementation follows the original Harris & Stephens paper step by step:
+Corner detection is one of the core tasks in computer vision, used in image matching, object tracking, and 3D reconstruction. This implementation follows the original Harris & Stephens paper:
 
 1. Compute image gradients with Sobel operators
 2. Build the second-moment (structure) tensor at each pixel
